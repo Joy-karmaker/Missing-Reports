@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zc.missingreports2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignUpForm" />
+        <activity android:name=".OptionActivity" />
+        <activity android:name=".MissingPersonForm" />
+        <activity android:name=".CustomCardview" />
+        <activity android:name=".CustomCardview2" />
+        <activity android:name=".Notifications" />
+        <activity android:name=".Newsfeed" />
+        <activity android:name=".MissingActivity" />
+        <activity android:name=".MatchingResult" />
+        <activity android:name=".VehicleActivity" />
+        <activity android:name=".MissingCarForm" />
+        <activity android:name=".DocumentActivity" />
+        <activity android:name=".MobileActivity" />
+        <activity android:name=".NIDActivity" />
+        <activity android:name=".OthersActivity" />
+        <activity android:name=".PassportActivity" />
+        <activity android:name=".WalletActivity" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".MobileResult" />
+        <activity android:name=".NidResult" />
+        <activity android:name=".OthersResult" />
+        <activity android:name=".PassportResult" />
+        <activity android:name=".VehicleResult" />
+        <activity android:name=".WalletResult" />
+        <activity android:name=".TestActivity"></activity>
+    </application>
+
+</manifest>

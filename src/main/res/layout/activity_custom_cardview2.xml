@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/curve_textfield"
+            android:id="@+id/first"
+            android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Mr. Animesh has found a match.Click to check"
+                    android:id="@+id/unotification"
+                    android:textSize="18dp"
+                    android:layout_margin="5dp"
+                    android:textColor="#ffff"
+                    android:drawableLeft="@drawable/bell_ring"
+                    android:drawablePadding="10dp"
+                    android:layout_centerHorizontal="true"
+                    />
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/match_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="18dp"
+                    android:gravity="start"
+                    android:paddingLeft="40dp"
+                    android:text="80% matched"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/grayColor"
+                    android:textColorHighlight="@color/grayColor"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/post_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:paddingRight="40dp"
+                    android:text="22.12am"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/grayColor"
+                    android:textColorHighlight="@color/grayColor"
+                    android:textSize="14dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toEndOf="@+id/match_id"
+                    tools:layout_editor_absoluteY="0dp" />
+            </android.support.constraint.ConstraintLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+</android.support.v7.widget.CardView>
